@@ -1,6 +1,6 @@
 {
   "name": "unstorage",
-  "version": "1.10.2",
+  "version": "2.0.1",
   "description": "Universal Storage Layer",
   "repository": "unjs/unstorage",
   "license": "MIT",
@@ -31,6 +31,7 @@
     "server.d.ts"
   ],
   "scripts": {
+    "fetch": "pnpm install",
     "build": "unbuild",
     "demo": "vite demo",
     "dev": "vitest",
@@ -153,5 +154,5 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@9.1.1"
+  "packageManager": "pnpm@9.1.2"
 }
